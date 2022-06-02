@@ -6,12 +6,12 @@ import javax.persistence.*;
 
 //@Builder
 //@Entity
-//@Table(name = "customers")
 //@Getter
 //@Setter
 //@AllArgsConstructor
 //@NoArgsConstructor
 @Data
+@Table(name = "customers")
 public class Customers {
 
     @Id
